@@ -1,0 +1,8 @@
+.app,
+.page,
+.hero,
+.navbar,
+.section {
+  position: relative;
+  z-index: 1;
+}

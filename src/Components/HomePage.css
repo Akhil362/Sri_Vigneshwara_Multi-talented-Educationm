@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page {
+  background: #fff5f5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  color: #b30000;
+}
+
+.logo img {
+  width: 45px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login {
+  color: #b30000;
+  font-weight: bold;
+}
+
+.contact-box {
+  background: #b30000;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+  background: linear-gradient(135deg, #ffe5e5, #fff);
+}
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero-text h4 {
+  color: #b30000;
+}
+
+
+.hero-text h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.hero-text p {
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.hero-text button {
+  background: #b30000;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-image {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* PLACEMENTS */
+.placements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+
+.placements-text h4 {
+  color: #b30000;
+}
+
+.placements-text h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.placements-text p {
+  max-width: 480px;
+  margin-bottom: 20px;
+}
+
+.placements-text button {
+  background: #b30000;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.profile-card {
+  background: #ffe5e5;
+  padding: 60px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.page-content {
+  padding: 80px;
+}
+
+.page-content h1 {
+  color: #b30000;
+  margin-bottom: 15px;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.card {
+  width: 200px;
+  height: 280px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+

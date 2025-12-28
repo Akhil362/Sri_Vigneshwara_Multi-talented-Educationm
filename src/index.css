@@ -1,0 +1,14 @@
+#root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background-image: url("../public/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px;
+
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+}
