@@ -28,7 +28,7 @@
 }
 
 .logo img {
-  width: 45px;
+  width: 100px;
 }
 
 .nav-links {
@@ -50,9 +50,9 @@
 .contact-box {
   background: #b30000;
   color: white;
-  padding: 8px 14px;
-  border-radius: 6px;
-  font-size: 13px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 15px;
 }
 
 /* HERO */

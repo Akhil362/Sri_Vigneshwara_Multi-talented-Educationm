@@ -4,7 +4,7 @@ export default function Contact() {
       <h1>Contact Us</h1>
       <p>📞 Mobile: 8328025905</p>
       <p>📧 Email: info@svmte.in</p>
-      <p>📍 Location: Hyderabad</p>
+      <p>📍 Location: Narsampet</p>
     </div>
   );
 }

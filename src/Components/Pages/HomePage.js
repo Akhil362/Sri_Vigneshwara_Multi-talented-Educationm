@@ -14,7 +14,8 @@ export default function HomePage() {
       <nav className="navbar">
         <div className="logo">
           <img src={logo} alt="Logo" />
-          <span>Sri Vigneshwara Multi-Talented Education</span>
+          <h1>Sri Vigneshwara 
+            <br />Multi-Talented Education</h1>
         </div>
 
         <ul className="nav-links">
